@@ -1,0 +1,199 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Roboto:wght@700&display=swap');
+
+body {
+  min-width: 950px;
+  max-width: 1000px;
+  margin: 0 auto;
+  font-size: 18px;
+}
+
+nav {
+  text-align: center;
+}
+
+img {
+  height: 140px;
+  width: 140px;
+  margin: 0 auto;
+}
+
+/** Header **/
+header {
+  background-image: url(./ConferenceImages/conference-hero.jpg);
+  color: #FFFFFF;
+}
+
+header {
+  font-family: "Open Sans"; serif;
+  font-weight: 700;
+  text-align: center;
+  font-size: 12px;
+  padding-bottom: 20px;
+}
+
+header > img {
+  margin-top: 30px;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  border: 3px solid white;
+}
+
+header > h1 {
+  font-family: "Roboto"; serif;
+}
+
+h3 {
+  font-family: "Open Sans"; serif;
+  font-weight: 700;
+}
+
+p {
+  font-family: "Open Sans"; sans-serif;
+  font-weight: 400;
+  line-height: 14px;
+}
+
+#expectation, #pricing, #gettickets {
+  background-color: #BDD5EA;
+  padding: 25px;
+}
+
+#information {
+  background-image: url(./ConferenceImages/swirl.png);
+  padding: 20px;
+  font-size: 12px;
+  min-height: 500px;
+  min-width: inherit;
+}
+
+.point1, .point2, .point3 {
+  display: block;
+  height: 170px;
+}
+
+.information {
+  width: 60%;
+  float: left;
+  padding: 33px 0px 0px 40px;
+}
+
+.information > h3 {
+  margin: 0px;
+}
+
+#infoimg {
+  max-width: 40%;
+  float: left;
+  margin: 0 auto;
+  width: 175px;
+  padding-left: 40px;
+}
+
+#infoimg > img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+}
+
+#infoimg > img:hover {
+  border: 3px solid #7F7A7A;
+}
+
+#pricing > h3 {
+  text-align: center;
+}
+
+table {
+  text-align: center;
+  width: 650px;
+    margin: 0 auto;
+}
+
+th {
+  background-color: #495867;
+  padding: 10px;
+  color: #fff;
+}
+
+td {
+  background-color: #fff;
+  padding: 15px;
+}
+
+#speakers {
+  min-height: 800px;
+  padding: 0px 50px;
+  background-image: url(./ConferenceImages/swirl.png);
+}
+
+#speakers > h3 {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.day1speakers, .day2speakers {
+  width: 40%;
+  float: left;
+  border: 2px solid #E9E9E9;
+  margin: 0 35px;
+  padding-left: 10px;
+  box-shadow: 5px 5px 15px 3px grey;
+}
+
+.day1speakers > h3, .day2speakers > h3 {
+  text-align: center;
+}
+
+.day1speakers > img, .day2speakers > img {
+  height: 125px;
+  width: 125px;
+  float: left;
+  border-radius: 50%;
+}
+
+.day1speakers > p, .day2speakers > p {
+  font-size: 14px;
+  padding-bottom: 30px;
+  max-width: 375px;
+}
+
+#gettickets {
+  text-align: center;
+}
+
+a {
+  padding: 10px;
+  border: 1px solid red;
+  background-color: #fe5f55;
+  color: white;
+  text-decoration: none;
+  border-radius: 15%;
+  margin: 0 5px;
+}
+
+#tickets {
+  font-family: "Open Sans"; "sans";
+  font-weight: 400;
+  text-align: center;
+  font-size: 14px;
+}
+
+form {
+  border: 1px solid #E9E9E9;
+  width: 500px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+input {
+  margin: 5px;
+  padding: 5px;
+}
+
+footer {
+  background-color: #495867;
+  text-align: center;
+  color: #FFFFFF;
+  padding: 15px;
+}
