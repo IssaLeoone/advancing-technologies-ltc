@@ -63,8 +63,6 @@ p {
   background-image: url(./ConferenceImages/swirl.png);
   padding: 20px;
   font-size: 12px;
-  min-height: 500px;
-  min-width: inherit;
 }
 
 .point1, .point2, .point3 {
@@ -196,4 +194,72 @@ footer {
   text-align: center;
   color: #FFFFFF;
   padding: 15px;
+}
+
+@media(max-width: 479px) {
+
+  body {
+    margin: 0 10px;
+    overflow: auto;
+  }
+
+  nav {
+    text-align: right;
+  }
+
+  nav > a {
+    padding: 0;
+    border: 0;
+    background-color: white;
+    color: #000;
+    text-decoration: none;
+    margin: 0 5px;
+    font-size: 24px;
+  }
+
+  #expectation, ul {
+    font-size: 24px;
+    display: block;
+    list-style: none;
+    text-align: center;
+  }
+
+  .headerimg {
+    width: 200px;
+    height: 200px;
+  }
+
+  img:not(.headerimg) {
+    display: none;
+  }
+
+  h1, h2, li, {
+    font-size: 32px;
+  }
+
+  #information {
+    min-height: 550px;
+  }
+
+  .information {
+    width: 100%;
+  }
+
+  h3, h5, p {
+    font-size: 24px;
+    line-height: 25px;
+  }
+
+  .day1speakers, .day2speakers {
+    border: none;
+    box-shadow: none;
+  }
+
+  .day1speakers > p, .day2speakers > p {
+    font-size: 24px;
+  }
+
+  #speakers {
+    min-height: 1150px;
+  }
 }
