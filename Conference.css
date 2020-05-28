@@ -189,11 +189,84 @@ input {
   padding: 5px;
 }
 
+.countdown {
+  border: 2px solid grey;
+  width: 300px;
+  margin: 20px auto;
+  padding-bottom: 15px;
+  text-decoration: underline;
+}
+
 footer {
   background-color: #495867;
   text-align: center;
   color: #FFFFFF;
   padding: 15px;
+}
+
+.modal-hidden {
+  display: none;
+}
+
+#letter {
+  cursor: pointer;
+}
+
+.modal-shown {
+  background-color: #fe5855;
+  width: 300px;
+  text-align: center;
+  height: 150px;
+  z-index: 1;
+  position: absolute;
+  top: 50%;
+  left: 45%;
+}
+
+.modal-shown > button {
+  position: absolute;
+  left: 89%;
+  top: 4%;
+}
+
+.modal-shown > h2, h5 {
+  margin: 10px;
+}
+
+#ratings {
+  height: 350px;
+  margin-top: 35px;
+  text-align: center;
+}
+
+#buttons {
+  margin: 15px;
+  display: flex;
+  justify-content: space-around;
+}
+
+button {
+  width: 170px;
+  height: 50px;
+  padding: 10px;
+  border: 1px solid red;
+  background-color: #fe5f55;
+  color: white;
+  text-decoration: none;
+  border-radius: 15%;
+  margin: 5px;
+  font-size: 16px;
+}
+
+#submit {
+  width: 140px;
+  height: 30px;
+  border: 1px solid red;
+  background-color: #fe5f55;
+  color: white;
+  border-radius: 0;
+  font-size: 14px;
+  padding: 0;
 }
 
 @media(max-width: 479px) {
